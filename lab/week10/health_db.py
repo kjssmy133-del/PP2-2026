@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 
 class PatientRecord:
+    
     def __init__(self, patient_id: str, name: str, birth_year: int, gender: str, height: float, weight: float):
         self.patient_id = patient_id
         self.name = name
